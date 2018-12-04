@@ -1,6 +1,6 @@
-/* 
+/*
 
-Style Hints: 
+Style Hints:
 
 Body Font Size = 14px
 	 Font Family = "Times New Roman", serif
@@ -17,3 +17,82 @@ H2: Font Size = 18px
 	Font-Family: cursive, Helvetica, sans-serif;
 
 */
+
+body {
+    font-size: 14px;
+    font-family: "Times New Roman", serif;
+    font-color: black;
+    background-color: #F3EBE9;
+    background-image: url("../images/pattern1.png");
+    background-size: cover;
+    height: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-color: #FFFFFF;
+    btext-transform: uppercase;
+}
+
+h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: cursive, Helvetica, sans-serif;
+}
+
+div {
+    margin: 0 10%;
+}
+
+.header {
+    padding: 2% 1%;
+    background-color: #FF7F50;
+}
+
+.shopImage img{
+    width: 100%;
+    display:block;
+}
+
+.page {
+    background-color: white;
+    text-align: justify;
+}
+
+.page * {
+    padding: 1% 1%;
+}
+
+.page a {
+    display:inline-block;
+}
+
+.showcase {
+    padding: 2% 1%;
+    background-color: white;
+}
+
+.shopPhotos {
+    width: 100%;
+    margin: 1% 0;
+    text-align: center;
+}
+
+.shopPhotos img {
+    border: solid grey 3px;
+}
+
+.footer {
+    padding: 2% 0;
+    background-color: #FF7F50;
+}
+
+.footer p {
+    position: relative;
+    float: right;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0 1%;
+}
